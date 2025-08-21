@@ -1,56 +1,7 @@
-# Core dependencies
-pydantic
-fastapi
-python-dotenv
-uvicorn[standard]
-
-# LangChain ecosystem
+streamlit
 langchain
-langchain-core
-langserve
-langchain-community
 langchain-groq
-langchain-openai
-langchain-ollama
-langchain-chroma
-langchain-huggingface
-langchain-text-splitters
-
-# LangSmith observability
-langsmith
-
-# Vector DB & embeddings
-sentence-transformers
-faiss-cpu
-chromadb
-
-# Data processing & scraping
-pypdf
-pymupdf
-bs4
-arxiv
+langchain-community
 wikipedia
-tqdm
-
-# Streaming & API helpers
-sse-starlette
-
-# Notebook support
-ipykernel
-
-pydantic>=2.7.4,<2.8.0
+arxiv
 duckduckgo-search
-mysql-connector-python
-SQLAlchemy
-
-validators
-youtube-transcript-api
-pytube
-unstructured
-whisper
-numexpr
-cassio
-tiktoken
-datasets
-pypdf2
-langchain_astradb
